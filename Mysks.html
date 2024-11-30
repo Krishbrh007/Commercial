@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Clothing Website</title>
+    <style>
+        body {
+            background-color: #f0f4f7;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .upx {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background-color: #2c3e50;
+            padding: 10px 20px;
+        }
+
+        .tophead {
+            height: 45px;
+            background-color: #34495e;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px;
+        }
+
+        .tc {
+            color: #ecf0f1;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .tc:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 5px 2px #3498db;
+            transition: 0.3s ease;
+        }
+
+        .db {
+            font-size: 32px;
+            font-family: 'Georgia', serif;
+            color: #2c3e50;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .mn {
+            font-size: 24px;
+            font-family: 'Times New Roman', serif;
+            color: #f39c12;
+            margin-left: 20px;
+        }
+
+        .xy {
+            display: inline-block;
+            border: 3px solid #3498db;
+            border-radius: 8px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .xy:hover {
+            background-color: #2980b9;
+        }
+
+        .mnj:hover {
+            box-shadow: 0 0 20px 10px rgba(52, 152, 219, 0.5);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .gif {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            font-family: Georgia;
+        }
+
+        .hi, .cur {
+            color: #2c3e50;
+            font-family: Georgia, serif;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 30px;
+        }
+.xi {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.imx img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.imx img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .row img {
+            width: 48%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .letter {
+            text-align: center;
+            font-size: 1.8em;
+            font-family: Georgia, serif;
+            color: #7f8c8d;
+            margin-top: 10px;
+        }
+
+        .xo {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            height: 10px;
+            background-color: #34495e;
+        }
+
+        .lkbys img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .lkbys a {
+            text-decoration: none;
+        }
+    .md{
+      font-family:Georgia,serif;
+      font-size:20px;
+      color: #2c3e50;
+      text-align:center;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="upx">
+        <p class="mn">KRIBBLE</p>
+        <div class="up">
+            <form>
+                <input type="text" placeholder="Search..." style="padding: 5px 10px; border-radius: 8px; border: 1px solid #bdc3c7;">
+            </form>
+        </div>
+        <div class="up">
+            <input type="submit" value="Submit" style="padding: 5px 15px; border-radius: 8px; background-color: #3498db; color: white; border: none;">
+        </div>
+        <div class="up">
+            <img src="Icon.png" width="20px" alt="Icon">
+        </div>
+    </div>
+
+    <div class="tophead">
+        <div class="tc">DANSHAIN</div>
+        <div class="tc">MEN</div>
+        <div class="tc">WOMEN</div>
+        <div class="tc">BRANDS</div>
+        <div class="tc">FURNITURE</div>
+        <div class="tc">GIFTS</div>
+        <div class="tc">BEST SELLER</div>
+        <div class="tc">FESTIVE</div>
+        <div class="tc">LUXURY</div>
+        <div class="tc">JEWELS</div>
+        <div class="tc">PHONES</div>
+        <div class="tc">LAPTOPS</div>
+    </div>
+
+    <p class="db">DISCOVER BRANDS</p>
+    <span class="xy">SHOP ALL BRANDS</span>
+    <br><br>
+
+    <div class="mnj">
+        <img src="20241128_202008.jpg" width="100%" height="auto" alt="Banner Image">
+    </div>
+
+    <div class="gif">
+        <img src="hlo.gif" width="100%" alt="GIF">
+        <div class="overlay">EXPLORE THE WEBSITE</div>
+    </div><br><br><br>
+<span class="hi">BOY'S WEAR</span><br><br><br>
+<div class="xi">
+    <div class="imx"><img src="061124-roundel-1-boys-data.jpg" alt="Image 1"></div>
+    <div class="imx"><img src="061124-roundel-2-boys-data.jpg" alt="Image 2"></div>
+    <div class="imx"><img src="061124-roundel-3-boys-data.jpg" alt="Image 3"></div>
+    <div class="imx"><img src="061124-roundel-4-boys-data.jpg" alt="Image 4"></div>
+    <div class="imx"><img src="061124-roundel-5-boys-data.jpg" alt="Image 5"></div>
+    <div class="imx"><img src="061124-roundel-11-boys-data.jpg" alt="Image 6"></div>
+    <div class="imx"><img src="061124-roundel-10-boys-data.jpg" alt="Image 7"></div>
+    <div class="imx"><img src="Bear & Skateboard Detailed Shirt - Blue _ XS.jpeg" alt="Image 8"></div>
+    <div class="imx"><img src="Boys Buffalo Plaid Hooded Shirt Without Tee.jpeg" alt="Image 9"></div>
+    <div class="imx"><img src="Teen plus Fleece Jacket Boy Windbreaker - White grey _ L.jpeg" alt="Image 10"></div>
+    <div class="imx"><img src="Boys Cartoon Graphic Two Tone Hoodie.jpeg" alt="Image 11"></div>
+</div>
+
+    <br><br><br>
+ <span class="cur">TRENDING</span>
+    <br><br><br>
+
+    <div class="row">
+        <img src="65b60dfa-cc17-418e-a201-18befcad6031.jpeg" alt="Image 1">
+        <img src="5c24c0dd-bdaa-4f80-9913-14219e6c1de3.jpeg" alt="Image 2">
+    </div>
+    <div class="letter"><pre>Saree         traditional</pre></div>
+
+    <div class="row">
+        <img src="Nepal.jpeg" alt="Image 3">
+        <img src="24624d70-5ca9-4264-b5cb-9d903bf7dcf0.jpeg" alt="Image 4">
+    </div>
+    <div class="letter"><pre>Newar dress      Himalayas</pre></div>
+
+    <hr class="xo">
+
+    <span class="cur">FOR BOY'S</span>
+    <div class="lkbys">
+        <a href="Boyssect.html"><img src="20241130_064735.jpg" alt="For Boy's Section"></a>
+    </div>
+    <hr class="xo">
+    <br><br>
+        <span class="cur">FOR GIRL'S</span>
+    <div class="lkbys">
+        <a href="Girlssect.html"><img src="46276b8c-12a8-4a58-a937-ccaf0152e97b.jpeg" alt="For Girl's Section"></a>
+    </div>    <hr class="xo">
+    <div class="lkbys">
+      <span class="cur"> GIFT'S</span>
+    <br><br>
+    <div class="lkbys">
+        <a href="Gift.html"><img src="160924-roundel-1-christmas-data.jpg" alt="For Girl's Section"></a><hr class="xo">
+<div class="md"><span>Developed by krish</span></div>
+</body>
+</html>

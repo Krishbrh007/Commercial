@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #6FB1FC, #4364F7);
+      margin: 0;
+    }
+
+    .xy {
+      width: 100%;
+      max-width: 350px;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    .l {
+      color: #333333;
+      font-family: 'Georgia', serif;
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .lgbx {
+      font-family: 'Georgia', serif;
+      color: #333333;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .xyz {
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      font-size: 16px;
+      width: 100%;
+      box-sizing: border-box;
+      background-color: #f9f9f9;
+    }
+
+    .xyz:focus {
+      border-color: #4364F7;
+      background-color: #f1faff;
+      outline: none;
+    }
+
+    button {
+      padding: 12px;
+      background-color: #4364F7;
+      border: none;
+      color: white;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #3653d3;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="xy">
+    <p class="l">LOGIN TO KRIBBLE</p>
+    <form>
+      <div class="lgbx">
+        <p>USERNAME: <input type="text" maxlength="20" placeholder="Enter username..." class="xyz"></p>
+        <p>PASSWORD: <input type="password" maxlength="20" placeholder="Enter password..." class="xyz"></p>
+        <a href="Mysks.html"><button type="button">Login</button></a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
